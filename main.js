@@ -1,4 +1,5 @@
 
+
 let productoImagen=[
 
     {Laptoplenovo:"https://cdn.pacifiko.com/image/cache/catalog/p/ZDkzNjc0MT_1-1000x1000.png"},
@@ -24,5 +25,30 @@ let productoImagen=[
     {CajaHerramienta:"https://www.mikels.com.mx/media/catalog/product/cache/95aae7ce13a353d20b736b25a0c71a20/c/h/ch-88_2.jpg"},
     {Destornillador:"https://yoclaudiomercantil.com.do/wp-content/uploads/2022/08/destornillador-estria-3-8-x-8-ingco-yoclaudiomercantil.jpg"},
     {CintaMetrica:"https://cafesacomercial.com/wp-content/uploads/2023/03/cinta-metrica-5m-tolsen.jpg"},
+
+const productos = [
+  { nombre: "Laptop Lenovo", categoria: "Tecnología", precio: 1500 },
+  { nombre: "Celular Samsung", categoria: "Tecnología", precio: 1200 },
+  { nombre: "Auriculares JBL", categoria: "Tecnología", precio: 300 },
+  { nombre: "Mouse Logitech", categoria: "Tecnología", precio: 150 },
+  { nombre: "Teclado Redragon", categoria: "Tecnología", precio: 200 },
+
+  { nombre: "Sofá 3 plazas", categoria: "Hogar", precio: 850 },
+  { nombre: "Mesa de comedor", categoria: "Hogar", precio: 400 },
+  { nombre: "Lámpara de pie", categoria: "Hogar", precio: 90 },
+  { nombre: "Alfombra persa", categoria: "Hogar", precio: 300 },
+  { nombre: "Silla ergonómica", categoria: "Hogar", precio: 220 },
+
+  { nombre: "Remera blanca", categoria: "Ropa", precio: 50 },
+  { nombre: "Pantalón jeans", categoria: "Ropa", precio: 120 },
+  { nombre: "Campera de cuero", categoria: "Ropa", precio: 350 },
+  { nombre: "Zapatillas Nike", categoria: "Ropa", precio: 250 },
+  { nombre: "Gorra negra", categoria: "Ropa", precio: 40 },
+
+  { nombre: "Martillo", categoria: "Ferretería", precio: 60 },
+  { nombre: "Taladro eléctrico", categoria: "Ferretería", precio: 400 },
+  { nombre: "Caja de herramientas", categoria: "Ferretería", precio: 220 },
+  { nombre: "Destornillador", categoria: "Ferretería", precio: 30 },
+  { nombre: "Cinta métrica", categoria: "Ferretería", precio: 25 },
 
 ];
