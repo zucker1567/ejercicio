@@ -23,3 +23,12 @@ const productos = [
   { nombre: "Destornillador", categoria: "Ferretería", precio: 30 },
   { nombre: "Cinta métrica", categoria: "Ferretería", precio: 25 },
 ];
+
+function obtenerProductosPorCategoria(categoria) {
+  return productos.filter(producto => producto.categoria === categoria);
+}
+const productosTecnologia = obtenerProductosPorCategoria("Tecnología");
+console.log(productosTecnologia);
+
+const categoriasDisponibles = [...new Set(productos.map(p => p.categoria))];
+console.log(categoriasDisponibles); 
