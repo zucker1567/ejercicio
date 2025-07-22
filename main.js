@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 let productoImagen=[
 
@@ -27,10 +27,10 @@ let productoImagen=[
     {CintaMetrica:"https://cafesacomercial.com/wp-content/uploads/2023/03/cinta-metrica-5m-tolsen.jpg"},
 
 ]
-=======
+
 let lista = document.querySelector("#listaProductos");
 const categoriaElegida = "Tecnología";
->>>>>>> 9c887cd4fd77f27212f2c8300e867c8ed12c31a2
+
 
 const productos = [
     { nombre: "Laptop Lenovo", categoria: "Tecnología", precio: 1500 },
@@ -51,15 +51,15 @@ const productos = [
     { nombre: "Zapatillas Nike", categoria: "Ropa", precio: 250 },
     { nombre: "Gorra negra", categoria: "Ropa", precio: 40 },
 
-<<<<<<< HEAD
+
   { nombre: "Martillo", categoria: "Ferretería", precio: 60 },
   { nombre: "Taladro eléctrico", categoria: "Ferretería", precio: 400 },
   { nombre: "Caja de herramientas", categoria: "Ferretería", precio: 220 },
   { nombre: "Destornillador", categoria: "Ferretería", precio: 30 },
   { nombre: "Cinta métrica", categoria: "Ferretería", precio: 25 },
-];
 
-=======
+
+
     { nombre: "Martillo", categoria: "Ferretería", precio: 60 },
     { nombre: "Taladro eléctrico", categoria: "Ferretería", precio: 400 },
     { nombre: "Caja de herramientas", categoria: "Ferretería", precio: 220 },
@@ -130,4 +130,4 @@ for (let i = 0; i < productosFiltrados.length; i++) {
 </div>
 `;
 }
->>>>>>> 9c887cd4fd77f27212f2c8300e867c8ed12c31a2
+
